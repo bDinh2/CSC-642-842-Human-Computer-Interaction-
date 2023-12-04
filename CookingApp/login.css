@@ -1,0 +1,74 @@
+.container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-box {
+	width: 300px;
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.login-box h2 {
+	margin: 0 0 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+
+.login-box input[type='email'],
+.login-box input[type='password'] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.login-box input[type='checkbox'] {
+	margin-right: 5px;
+}
+
+.login-box a {
+	color: #d26a6a;
+	text-decoration: none;
+}
+
+.login-box .btn {
+	width: 100%;
+	padding: 10px;
+	background: #d26a6a;
+	border: 0;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.login-box .social-buttons a {
+	display: inline-block;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.login-box .social-buttons img {
+	width: 24px;
+	height: 24px;
+}
+
+.footer {
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
+.footer p {
+	color: #777;
+}
