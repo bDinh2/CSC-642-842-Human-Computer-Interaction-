@@ -6,6 +6,13 @@ p {
     padding: 0;
 }
 
+body {
+    background-color: #ffeff0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -20,7 +27,7 @@ nav a {
 }
 
 main {
-    background-color: #ffeff0;
+    flex: 1;
 }
 
 #go-live {
@@ -59,6 +66,7 @@ main {
     color: palevioletred;
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 #go-live form {
@@ -123,4 +131,37 @@ main {
 
 .right-arrow {
     margin-left: 10px;
+}
+
+#live-chat {
+    background-color: #fff0f0;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid palevioletred;
+    max-width: 1200px;
+}
+
+#live-chat h3,
+#explore h2 {
+    color: palevioletred;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.chat-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.chat-list li {
+    background-color: #ffffff;
+    border: 1px solid #ffeff0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.chat-list strong {
+    color: palevioletred;
 }
