@@ -1,0 +1,136 @@
+body{
+    height:1000px;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+.accountpage{
+    color: black;
+    text-align: center;
+    position: relative;
+    right: 700px;
+}
+.accountpage2{
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    bottom: 60;
+}
+.accountpage-img {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    border: 2px solid black;
+    position: relative;
+    right: 700px;
+    bottom: 60;
+  
+}
+
+
+.accountpage-info{
+    background-color: rgb(243, 243, 243);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 700px;
+    bottom: 60;
+}
+
+.steps{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    right: 700px;
+    bottom: 60;
+  
+}.steps2{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+   
+}
+
+.accountpage-btn {
+    background-color: rgb(224, 148, 161);
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    margin: auto; 
+    display: block;
+    margin-top: -30px;
+    position: relative;
+    right: 700px;
+    bottom: 60;
+  
+}
+.accountpage-btn2 {
+    background-color: rgb(224, 148, 161);
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    margin: auto; 
+    display: block;
+    margin-top: -30px;
+    position: relative;
+    right: 0px;
+    bottom: -50;
+  
+}
+.accountpage-btn3 {
+    background-color: rgb(224, 148, 161);
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    margin: auto; 
+    display: block;
+    margin-top: -30px;
+    position: relative;
+    right: 0px;
+    bottom: -100;
+  
+}
+.accountpage-btn4 {
+    background-color: rgb(224, 148, 161);
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    margin: auto; 
+    display: block;
+    margin-top: -30px;
+    position: relative;
+    right: 0px;
+    bottom: -150;
+  
+}
+    
+  .accountpage-btn:hover {
+    background-color: white;
+}
+.accountpage-btn2:hover {
+    background-color: white;
+}
+.accountpage-btn3:hover {
+    background-color: white;
+}
+.accountpage-btn4:hover {
+    background-color: white;
+}
