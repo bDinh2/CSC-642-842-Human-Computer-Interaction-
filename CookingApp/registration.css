@@ -68,3 +68,7 @@ button:hover {
 	color: #333;
 	text-decoration: none;
 }
+
+.alternate-signin {
+	text-align: center;
+}
