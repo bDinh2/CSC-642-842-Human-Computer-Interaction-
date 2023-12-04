@@ -1,0 +1,7 @@
+.custom-span {
+        font-family: 'Arial', sans-serif; /* Change the font family */
+        font-size: 16px; /* Change the font size */
+        font-weight: bold; /* Change the font weight */
+        color: #007bff; /* Change the text color */
+        /* Add any other styling properties as needed */
+}
