@@ -165,3 +165,16 @@ main {
 .chat-list strong {
     color: palevioletred;
 }
+
+.header-btn1,
+.header-btn2 {
+    font-size: 16px;
+    padding: 5px 10px;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
