@@ -1,9 +1,3 @@
-.registration-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .registration-container {
 	margin-top: 250px;
 	width: 340px;
@@ -11,7 +5,7 @@
 	background-color: white;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
-	margin-top: auto;
+	margin: auto;
 }
 
 h2 {
