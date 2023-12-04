@@ -1,0 +1,53 @@
+body{
+    height:1000px;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+.post{
+    color: black;
+    text-align: center;
+}
+
+.post-img {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    border: 2px solid black;
+}
+
+.post-info{
+    background-color: rgb(243, 243, 243);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 700px;
+    height: 280px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.steps{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.post-btn {
+    background-color: rgb(224, 148, 161);
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    margin: auto; 
+    display: block;
+    margin-top: -30px;
+}
+  
+  .post-btn:hover {
+    background-color: white;
+}
