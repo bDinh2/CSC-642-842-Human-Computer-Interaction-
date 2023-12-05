@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Post Page</title>
-        <link rel="stylesheet" href="footer.css">
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="/CookingApp/aboutus.css" />
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Page</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="/CookingApp/aboutus.css" />
+</head>
+
+<body>
     <div class="header">
-        <img class="logo" src="Lil_chef_logo.png" alt="logo">
+        <a href="Home.html">
+            <img class="logo" src="Lil_chef_logo.png" alt="logo">
+        </a>
         <div class="search-bar">
             <input type="text" placeholder="Search...">
         </div>
-        <button class="header-btn1">Register</button>
-        <button class="header-btn2">Login</button>
-        <img class="profile-pic" src="def.jpg" alt="profile-pic">
+        <a href="Registration.html" class="header-btn1">Register</a>
+        <a href="Login.html" class="header-btn2">Login</a>
+        <a href="ProfilePage.html">
+            <img class="profile-pic" src="def.jpg" alt="profile-pic">
+        </a>
     </div>
+
+    <nav>
+        <ul class="nav-ul">
+            <li class="nav-li"><a href="Explore.html">Explore</a></li>
+            <li class="nav-li"><a href="Stream.html">Streams</a></li>
+            <li class="nav-li"><a href="ChallengePage.html">Monthly Challenge</a></li>
+            <li class="nav-li"><a href="AboutUs.html">About Us</a></li>
+        </ul>
+    </nav>
     <div class="aboutus-section">
         <div class="image-size">
             <img src="Photos/aboutus.jpg" alt="challenge-section">
             <span class="aboutus-header-text">
-                    <span class="aboutus-header">About Us!</span>
-                    <span class="aboutus-header-description">
-                        Hello! Welcome to our CSC 642 class project! We are group 1 and our team
-                        consists of 6 computer science college students: Rita Belu Velazco, Justin Su,
-                        Tom Kirke, Benjamin Dinh, Jooho Chang, and William Ambriz. Our website, Lil' Chef,
-                        is a website where users can find community within cooking! This is the social media
-                        for all rookie, beginner, or master chefs out there to share all sorts of recipes
-                        with the world! Our goal is to inspire people to find joy and passion in cooking.
-                        We worked hard to create this idea of Lil' Chef, so we hope you enjoy!
-                    </span>
+                <span class="aboutus-header">About Us!</span>
+                <span class="aboutus-header-description">
+                    Hello! Welcome to our CSC 642 class project! We are group 1 and our team
+                    consists of 6 computer science college students: Rita Belu Velazco, Justin Su,
+                    Tom Kirke, Benjamin Dinh, Jooho Chang, and William Ambriz. Our website, Lil' Chef,
+                    is a website where users can find community within cooking! This is the social media
+                    for all rookie, beginner, or master chefs out there to share all sorts of recipes
+                    with the world! Our goal is to inspire people to find joy and passion in cooking.
+                    We worked hard to create this idea of Lil' Chef, so we hope you enjoy!
                 </span>
+            </span>
         </div>
     </div>
     <footer class="footer">
@@ -43,6 +58,6 @@
         <p>X/Twitter</p>
     </footer>
 
-    </body>
+</body>
 
 </html>
