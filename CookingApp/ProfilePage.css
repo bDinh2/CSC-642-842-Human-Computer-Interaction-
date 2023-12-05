@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffeff0;
+    color: #333;
+}
+
+.profile-header {
+    background-color: #f8d7da;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.username {
+    font-size: 36px;
+}
+
+.stats,
+.bio {
+    font-size: 24px;
+}
+
+.follow-btn,
+.message-btn {
+    background-color: #c82333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.recipe-search input {
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: block;
+}
+
+
+.recipe-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.recipe-card {
+    background-color: white;
+    border: 1px solid #f8d7da;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.view-btn {
+    background-color: #c82333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
