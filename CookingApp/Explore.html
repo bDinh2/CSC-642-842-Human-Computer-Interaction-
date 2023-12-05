@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Post Page</title>
-        <link rel="stylesheet" href="PostPage.css">
-        <link rel="stylesheet" href="footer.css">
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="explore.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Page</title>
+    <link rel="stylesheet" href="PostPage.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="explore.css">
+</head>
+
+<body>
     <div class="header">
-        <img class="logo" src="Lil_chef_logo.png" alt="logo">
+        <a href="Home.html">
+            <img class="logo" src="Lil_chef_logo.png" alt="logo">
+        </a>
         <div class="search-bar">
             <input type="text" placeholder="Search...">
         </div>
-        <button class="header-btn1">Register</button>
-        <button class="header-btn2">Login</button>
-        <img class="profile-pic" src="def.jpg" alt="profile-pic">
+        <a href="Registration.html" class="header-btn1">Register</a>
+        <a href="Login.html" class="header-btn2">Login</a>
+        <a href="ProfilePage.html">
+            <img class="profile-pic" src="def.jpg" alt="profile-pic">
+        </a>
     </div>
+
+    <nav>
+        <ul class="nav-ul">
+            <li class="nav-li"><a href="Explore.html">Explore</a></li>
+            <li class="nav-li"><a href="Stream.html">Streams</a></li>
+            <li class="nav-li"><a href="ChallengePage.html">Monthly Challenge</a></li>
+            <li class="nav-li"><a href="AboutUs.html">About Us</a></li>
+        </ul>
+    </nav>
     <section class="explore">
         <h2>Quick recipes!</h2>
         <div class="image-gallery">
@@ -69,6 +84,6 @@
         <p>X/Twitter</p>
     </footer>
 
-    </body>
+</body>
 
 </html>
