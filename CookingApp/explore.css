@@ -1,0 +1,43 @@
+.explore {
+    margin-left: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    max-width: 1200px;
+}
+
+.image-gallery {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.image-gallery img {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #ff5a5f;
+    border-radius: 10px;
+}
+
+.gallery-arrow {
+    font-size: 2em;
+    cursor: pointer;
+    user-select: none;
+    color: #ff5a5f;
+    padding: 0 20px;
+}
+
+.left-arrow {
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
+
+.right-arrow {
+    margin-left: 10px;
+}
