@@ -1,5 +1,8 @@
 .explore {
-    margin-left: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 20px;
 }
 
 .container {
@@ -11,8 +14,8 @@
 
 .image-gallery {
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 20px 0;
     gap: 20px;
 }
 
